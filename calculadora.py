@@ -17,7 +17,6 @@ def resultado():
         lblCalculo.configure(text = equacao)
         lblResultado.configure(text = resposta)
         entrada.delete(0, ctk.END)
-        print (resposta)
     except:
         lblResultado.configure(text = "Erro")
         entrada.delete(0, ctk.END)
